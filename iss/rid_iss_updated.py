@@ -35,5 +35,5 @@ def main():
     print(people)
 
     for i in people:
-        print (i['name'])
+        print (f"{i['name']} is on {i['craft']}")
 main()    
